@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>SECOND EYES</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/pabicon.png" type="image/icon">
+    <!-- fullpage.css -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper slide css cdh -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- 슬릭슬라이드 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/splide.min.css" type="text/css">
+    <!-- 외부 css 연결 -->
+    <link rel="stylesheet" href="css/dp.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js -->
+    <script src="js/jquery.fullPage.js"></script>
+    <!-- swiper slide js cdn -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- tweenmax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+        <!-- 슬릭슬라이드 js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="js/splide.min.js"></script>
+    <!-- 외부 js 연결 -->
+    <script src="js/dp.js"></script>
+    <!-- 어썸아이콘 -->
+    <script src="https://kit.fontawesome.com/9a962f5d24.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header class="active">
+        <div class="logo">
+            <a href="index.html"></a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i><img src="img/mainspade.png" alt="spade"></i>
+                        <div class="main">
+                            <div class="main_menu_box">
+                                <p>아르망디</p>
+                                <p>About ARMEND DE</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">뷔리 골드</a>
+                        </li>
+                        <li>
+                            <a href="#">로제</a>
+                        </li>
+                        <li>
+                            <a href="#">드미섹</a>
+                        </li>
+                        <li>
+                            <a href="#">브랑 드 블랑</a>
+                        </li>
+                        <li>
+                            <a href="#">블랑 드 누아 아삼블라쥬</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i><img src="img/mainspade.png" alt="spade"></i>
+                        <div class="main">
+                            <div class="main_menu_box">
+                                <p>돔페리뇽</p>
+                                <p>About DOM PERIGNON</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">로제</a>
+                        </li>
+                        <li>
+                            <a href="#">빈티지</a>
+                        </li>
+                        <li>
+                            <a href="#">플레니튜드2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i><img src="img/mainspade.png" alt="spade"></i>
+                        <div class="main">
+                            <div class="main_menu_box">
+                                <p>역사</p>
+                                <p>HISTORY</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">아르망디 역사</a>
+                        </li>
+                        <li>
+                            <a href="#">돔페리뇽 역사</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i><img src="img/mainspade.png" alt="spade"></i>
+                        <div class="main">
+                            <div class="main_menu_box">
+                                <p>고객 서비스</p>
+                                <p>CUSTOMER SERVICE</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">고객센터</a>
+                        </li>
+                        <li>
+                            <a href="#">본사위치</a>
+                        </li>
+                        <li>
+                            <a href="#">매장검색</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i><img src="img/mainspade.png" alt="spade"></i>
+                        <div class="main">
+                            <div class="main_menu_box">
+                                <p>뉴스</p>
+                                <p>NEWS</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="sub">
+                        <li>
+                            <a href="#">신제품</a>
+                        </li>
+                        <li>
+                            <a href="#">협찬</a>
+                        </li>
+                        <li>
+                            <a href="#">SNS</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="right_menu">
+            <ul>
+                <li>
+                    <a href="#">로그인</a>
+                </li>
+                <li>
+                    <a href="#">회원가입</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hbg"></div>
+        <div class="mobile_nav">
+            <div class="mobile_nav_in">
+                <div class="mobile_nav_top">
+                    <ul>
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                     <ul>
+                        <li>
+                            <a href="#">                                 
+                                       아르망디<i class="fa-solid fa-angles-down"></i>
+                            </a>
+                            <ul class="sub">
+                                 <li>
+                                      <a href="#">뷔리 골드</a>
+                                </li>
+                                <li>
+                                    <a href="#">로제</a>
+                                </li>
+                                <li>
+                                    <a href="#">드미섹</a>
+                                </li>
+                                <li>
+                                    <a href="#">브랑 드 블랑</a>
+                                </li>
+                                <li>
+                                    <a href="#">블랑 드 누아 아삼블라쥬</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                              돔페리뇽<i class="fa-solid fa-angles-down"></i>
+                            </a>
+                            <ul class="sub">
+                                <li>
+                                    <a href="#">로제</a>
+                                </li>
+                                    <li>
+                                        <a href="#">빈티지</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">플레니튜드2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   역사<i class="fa-solid fa-angles-down"></i>
+                                </a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#">아르망디 역사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">돔페리뇽 역사</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    고객 서비스<i class="fa-solid fa-angles-down"></i>
+                                </a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#">고객센터</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">본사위치</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">매장검색</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   뉴스<i class="fa-solid fa-angles-down"></i>
+                                </a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#">신제품</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">협찬</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SNS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                </nav>
+                <div class="mobile_sns">
+                        <ul>
+                            <li><a href="#"><img src="img/4691240_instagram_icon.png" alt="인스타그램"></a></li>
+                            <li><a href="#"><img src="img/5305153_fb_facebook_facebook logo_icon.png" alt="페이스북"></a></li>
+                            <li><a href="#"><img src="img/f_naver_icon.png" alt="블로그"></a></li>
+                            <li><a href="#"><img src="img/f_youtube_icon.png" alt="유튜브"></a></li>
+                        </ul>
+                </div>
+                <div class="mobile_close">
+                    <a href="#"><i class="fa-solid fa-x"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap" id="fullpage">
+        <section class="section visual">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide s1">
+                        <div class="s1_left">
+                            <p>Dom Pérignon Vintage</p>
+                            <h1>
+                                돔페리뇽 빈티지 2006은 <br>
+                                파티를 최고로 만들어드립니다.
+                            </h1>
+                            <a href="#">지금 구매하기</a>
+                        </div>
+                        <div class="s1_right">
+                            <video muted data-autoplay loop>
+                                <source src="img/s1-v1.mp4" type="video/mp4">
+                                <strong>Your browser does not support the video tag.</strong>
+                          </video>
+                        </div>
+                  </div>
+                  <div class="swiper-slide s2">
+                    <div class="s2_right">
+                        <video muted data-autoplay loop>
+                            <source src="img/s1-v2.mp4" type="video/mp4">
+                            <strong>Your browser does not support the video tag.</strong>
+                      </video>
+                    </div>
+                    <div class="s2_left">
+                        <p>Dom Pérignon Rosé</p>
+                        <a href="#">지금 구매하기</a>
+                        <h1>
+                            돔페리뇽 로제는 <br>
+                            빛과 어둠의 매력을 동시에 지니고있습니다.
+                        </h1>
+                    </div>
+                  </div>
+                  <div class="swiper-slide s3">
+                       <div class="s3_info">
+                            <h1>
+                                아르망 드 브리냑<br>
+                                블랑 드 블랑
+                            </h1>
+                            <h3>
+                                100% 샤르도네로 소량 생산<br>
+                                샤르도네 지역의 전통적인 샴페인
+                            </h3>
+                            <a href="#">지금 구매하기</a>
+                       </div>
+                  </div>
+                  <div class="swiper-slide s4">
+                        <div class="s4_info">
+                            <h1>
+                                아르망 드 브리냑<br>
+                                브뤼 골드
+                            </h1>
+                            <h3>
+                                샴페인 아르망 드 브리냑 <br>
+                                중 가장 먼저 출시된 <br>
+                                브뤼 골드는 전체 컬렉션 중 <br>
+                                가장 상징적인 뀌베 샴페인입니다.
+                            </h3>
+                            <a href="#">지금 구매하기</a>
+                        </div>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section class="section banner">
+
+                <div class="banner_video">
+                    <video muted data-autoplay loop>
+                        <source src="img/ladygaga.mp4" type="video/mp4">
+                        <strong>
+                            Your browser does not support the video tag.
+                        </strong>
+                    </video>
+                </div>
+                <h1>
+                    Dom Pérignon & Armend De
+                </h1>
+                <div class="contents">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="li_bg bg1">
+
+                                </div>
+                                <div class="li_des des1">
+                                    <div class="contents_h">
+                                        <div class="contents_h_p">
+                                            <span>
+                                                Artisanal <br>Craftsmanship
+                                            </span>
+                                            <p>
+                                                장인 실력
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <button>
+                                        더보기
+                                    </button>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="li_bg bg2">
+                                    
+                                </div>
+                                <div class="li_des des2">
+                                    <div class="contents_h">
+                                       <div class="contents_h_p">
+                                        <span>
+                                            Uncompromising <br>Selectivity
+                                        </span>
+                                        <p>
+                                            타협하지않은  선별력
+                                        </p>
+                                       </div>
+                                    </div>
+                                    <button>
+                                        더보기
+                                    </button>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="li_bg bg3">
+
+                                </div>
+                                <div class="li_des des3">
+                                    <div class="contents_h">
+                                        <div class="contents_h_p">
+                                            <span>
+                                                A life in Gold
+                                            </span>
+                                            <p>
+                                                황금빛 인생
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <button>
+                                        더보기
+                                    </button>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="section seven_tab">
+            <div class="seven_tab_title">
+                <h1>
+                    Inspiration
+                </h1>
+            </div>
+            <div class="Reni">
+                <div class="R0">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>레니 크라비츠</h1>
+                            <p>크리에이티브 디렉터이자 포터그래퍼 역할을 맡은 레니 크라비츠는 <br>
+                                돔 페리뇽의 이미지를 자신만의 시각으로 해석하여 선보입니다. <br>
+                                예술적인 영감을 주고받는 콜라보레이션을 통해 무한한 창의력의 <br>
+                                가능성을 깊이 파고듭니다.
+                            </p>
+                            <a href="#"><img src="img/s3-0.jpeg" alt="0"></a>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_1">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R1">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 1</h1>
+                             <h3>예술적인 감각</h3>
+                             <p>레니 크라비츠는 탁월한 재능을 지닌 사람들과 함께 로스앤젤레스의<br>
+                                 언덕에 모여서, 예술적인 영감 속에서 솟아나는 생생한 에너지를 나누면서<br>
+                                 잊지 못할 밤을 보냈습니다.
+                            </p>
+                            <a href="#"><img src="img/s3-l1.png" alt="1"></a>
+                             <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_2">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R2">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 2</h1>
+                            <h3>크레이티브 디렉터</h3>
+                            <p>우정과 상호 존중을 바탕으로 한 레니 크라비츠와 <br>
+                                돔 페리뇽의 특별한 인연. 그들만의 창조적 세계가 다시 한번 펼쳐집니다.<br>
+                            </p>
+                            <a href="#"><img src="img/s3-l2.png" alt="2"></a>
+                            <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_3">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R3">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 3</h1>
+                            <h3>리미티드 에디션 보틀</h3>
+                            <p>아이코닉한 디자인의 재해석
+                            </p>
+                            <a href="#"><img src="img/s3-l3.jpg" alt="3"></a>
+                            <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_4">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R4">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 4</h1>
+                            <h3>매그넘 캔들 홀더</h3>
+                            <p>레니 크라비츠는 돔 페리뇽 리추얼을 완성하고 그 결정적인 순간을 더욱 <br>
+                                오랫동안 감상할 수 있도록 캔들홀더로 변형이 가능한 빈티지 2008 <br>
+                                매그넘 박스를 선보였습니다.
+                            </p>
+                            <a href="#"><img src="img/s3-l4.jpeg" alt="4"></a>
+                            <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_5">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R5">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 5</h1>
+                            <h3>샴페인 테이블</h3>
+                            <p>욕망과 관능을 자극하는 디자인의 샴페인 테이블은 가히 이번 컬렉션의 걸작이라 할 수 있습니다.
+                            </p>
+                            <a href="#"><img src="img/s3-l5.jpg" alt="5"></a>
+                            <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_6">
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="R6">
+                    <div class="Reni_left">
+                        <div class="Reni_left1">
+                            <h1>Part 6</h1>
+                            <h3>앙상블라쥬</h3>
+                            <p>돔 페리뇽에서 영감을 받아 레니 크라비츠가 완성한 사진 전시회, <br>
+                                아상블라주는 각 분야를 대표하는 상징적인 존재가 만나 예술적인 영감을 <br>
+                                주고받은 콜라보레이션의 결과물로써 현재 전 세계에서 선보이고 있습니다.
+                            </p>
+                            <a href="#"><img src="img/s3-l6.png" alt="6"></a>
+                            <div class="contents">
+                                <div class="li_bg">더보기</div>
+                            </div>
+                            <div class="aa">
+                                <a href="#"><span></span><span></span><span></span><p>Drag Sideways</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Reni_right r_7">
+                        <a href="#"></a>
+                    </div>
+                </div>
+        </section>
+        <section class="section line_tab">
+            <h1>Products</h1>
+            <div class="products">
+                <section
+                    id="thumbnail-carousel"
+                    class="splide"
+                    aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                    >
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <a href="javascript:void(0);">뷔리골드 <i class="fa-solid fa-caret-right"></i></a>
+                            </li>
+                            <li>|</li>
+                            <li class="splide__slide">
+                                <a href="javascript:void(0);">로제<i class="fa-solid fa-caret-right"></i></a>
+                            </li>
+                            <li>|</li>
+                            <li class="splide__slide">
+                                <a href="javascript:void(0);">드미 섹<i class="fa-solid fa-caret-right"></i></a>
+                            </li>
+                            <li>|</li>
+                            <li class="splide__slide">
+                                <a href="javascript:void(0);">블랑 드 블랑<i class="fa-solid fa-caret-right"></i> </a>
+                            </li>
+                            <li>|</li>
+                            <li class="splide__slide">
+                                <a href="javascript:void(0);">브랑 드 누아 아삼블라쥬<i class="fa-solid fa-caret-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                 </section>
+                 <section id="main-carousel" class="splide">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                  <div class="s__s__img">
+                                    <img src="img/CAdB_Brut.png" alt="1">
+                                  </div>
+                                  <div class="s__s__inf">
+                                    <h3>Gold Brut</h3>
+                                    <p>
+                                        샴페인 아르망 드 브리냑 중 가장 먼저 출시된 브뤼 골드는 전체 컬렉션 중 가장 상징적인 뀌베 샴페인입니다.
+                                        전통적인 샴페인 블랜딩을 바탕으로 지역 내 가장 극찬을 받는 테루아에서 생산된 3가지 빈티지를 블렌딩하여,
+                                        부드러운 질감에 생동감 넘치고 신선한 과일의 특성이 그대로 담긴 뀌베 샴페인을 탄생시켰습니다.
+                                    </p>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                <div class="s__s__img">
+                                    <img src="img/CaDB_Rose.png" alt="2">
+                                  </div>
+                                  <div class="s__s__inf">
+                                    <h3>Rose</h3>
+                                    <p>
+                                        샴페인 아르망 드 브리냑 로제는 몽따뉴 드 랭스에서 자란 강한 향의 과실이 열리는 오래된 포도나무에서
+                                        수확한 피노 누아로 만들었습니다. 이렇게 탄생한 뀌베는 붉은 과일의 밝고 신선한 느낌에 구운 페이스트리 아로마를 선사합니다.
+                                    </p>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                <div class="s__s__img">
+                                    <img src="img/CaDB_DemiSec.png" alt="3">
+                                  </div>
+                                  <div class="s__s__inf">
+                                    <h3>Demi Sec</h3>
+                                    <p>
+                                        전 세계 유일의 프리미엄 뀌베 드미 섹이기도 한 이 특별한 샴페인은 자연 압착된 첫 부분을 선별해
+                                        만들어졌으며, 이는 아르망 드 브리냑의 특별한 와인 양조법입니다. 드미 섹은 다른 샴페인과는 다른
+                                        강렬한 과일 향, 효모 숙성에서 오는 복합미, 균형 잡힌 달콤함을 제공하며 다양한 요리와 완벽하게 어울립니다.
+                                    </p>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                <div class="s__s__img">
+                                    <img src="img/CAdB_BlancDeBlancs.png" alt="4">
+                                  </div>
+                                  <div class="s__s__inf">
+                                    <h3>Blanc De Blancs</h3>
+                                    <p>
+                                        100% 샤르도네로 소량 생산된 이 뀌베는 전통적인 샤르도네 지역인 꼬뜨 드 블랑의 과일이 50% 나머지는
+                                        몽따뉴 드 랭스 지역의 과일을 사용합니다. 이 특별한 블랜딩 비율은 몽따뉴 드 랭스 테루아의
+                                        미네랄 느낌과 부드럽고 둥근 샤르도네의 느낌에 숙성 잠재력까지 보여줍니다.
+                                    </p>
+                                  </div>
+                              </li>
+                              <li class="splide__slide">
+                                <div class="s__s__img">
+                                    <img src="img/CAdB_BlancDeNoirs.png" alt="5">
+                                  </div>
+                                  <div class="s__s__inf">
+                                    <h3>Blanc De Noirs Assemblage</h3>
+                                    <p>
+                                        샴페인 아르망 드 브리냑 블랑 드 누아 아삼블라쥬 2(A2)은 부지, 베르즈네, 시니 레 로즈, 루즈,
+                                        릴리 라 몽타뉴를 포함한 최고의 피노 누아 생산 마을의 최상의 포도로 만들어졌습니다. 3,000병 미만의 
+                                        제한된 수량만 공개 되었습니다. 2016년 6월 20일 현재까지 총 2,333병이 생산 되었습니다. 아르망 드 
+                                        브리냑 A2의 각 병에는 고유 번호(1번부터 2,333번)가 새겨져 있습니다
+                                    </p>
+                                  </div>
+                              </li>
+                          </ul>
+                    </div>
+                  </section>
+            </div>
+        </section>
+        <section class="section hive">
+            <h1>How To Be The Best All Time</h1>
+            <div class="hive_info">
+                <div class="hive_info_text hit1">
+                    <h2>장인정신</h2>
+                    <p>
+                        12대, 13대 샴페인의 명장 장 자끄 까띠에르와 그의 아들 알렉산더는 아르망 드 브리냑의 
+                        최고급 뀌베를 만들어 내기 위해 땀흘리는 노력을 했습니다. 그들은 가문이 250년간 포도나무를 
+                        재배해 온 지역에서 최고의 품질을 가진 샴페인을 만드는 꿈을 가지고 있었습니다.
+                    </p>
+                </div>
+                <div class="hive_info_text hit2">
+                    <h2>최초의 생산</h2>
+                    <p>
+                        최고의 샴페인을 생산하기 위해 오직 뀌베 프레스 중에서 최초에 생산된 가장 신선한 부분만 포함시키는 
+                        양조법은 아르망 드 브리냑의 와인 양조 트레이드마크입니다. 이처럼 치열한 선별력과 디테일에 대한 꼼꼼한 
+                        주의력이 합쳐져 생동감 넘치는 과일 특성, 부드러운 텍스처, 균형 잡힌 산도를 가진 샴페인이 만들어집니다.
+                    </p>
+                </div>
+                <div class="hive_info_text hit3">
+                    <h2>최고의 포도</h2>
+                    <p>
+                        매년 이들은 포도밭 중에서 최고의 품질을 보여주는 플롯을 골라 최고의 포도만을 수확합니다. 
+                        그 해에 자연이 선물해주는 환경과 기후에 따라 플롯은 달라집니다.
+                    </p>
+                </div>
+                <div class="hive_info_text hit4">
+                    <h2>포토밭 규모</h2>
+                    <p>
+                        몽따뉴 드 랭스 지역에 기반을 두고 있는 까띠에르 가문은 샴페인을 위한 최고의 포도를 경작하기위해 
+                        릴리-라-몽따뉴, 시니 레 로즈, 루즈의 마을을 포함하여 총33헥타르 규모의 포도밭을 소유하고 있습니다.
+                    </p>
+                </div>
+                <div class="hive_info_text hit5">
+                    <h2>최고의 양조법</h2>
+                    <p>
+                        샴페인 아르망 드 브리냑의 병 하나 하나는 그 해 최고의 기초 와인으로 이루어지고, 새로운 프랑스산 
+                        오크통에서 1년 동안 숙성되어 개성 넘치는 도사쥬로 마무리됩니다. 이 양조법은 완성된 뀌베에 미묘한 
+                        깊이를 더해주며 구운 페이스트리, 바닐라, 토스티 맛을 선사합니다.
+                    </p>    
+                </div>
+                <div class="hive_info_text hit6">
+                    <h2>최고의 혼합</h2>
+                    <p>
+                        샴페인 아르망 드 브리냑의 특별한 점은 빈티지 트리오의 혼합입니다. 각 아상블라주가 3가지 차이가 뚜렷한 
+                        수확물의 독특한 특성을 더해주며, 혼합할 때마다 강력한 혈통을 유지하고 있습니다.
+                    </p>
+                </div>
+                <div class="hive_info_text hit7">
+                    <h2>최고의 밭</h2>
+                    <p>
+                        지속가능한 양조기법은 까띠에르의 포도밭 관리의 핵심적인 원칙입니다. 이들이 소유한 땅들의 환경을 보존하려는 
+                        까띠에르 가문의 미래 세대를 위한 노력은 프랑스 정부의 인정을 받아 토지 평가 등급 중 
+                        가장 높은 등급인 HVE 레벨 3을 공인 받았습니다.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="hive_contents">
+                <div class="wrapper1">
+                    <div class="hex">
+                        <div class="hex-inner1">
+                          <div class="hex-inner2" style="background: url(img/h1.jpg)no-repeat center center">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2 heximg1" style="background: url(img/h1.jpg)no-repeat center center">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2 heximg2" style="background: url(img/h2.jpg)no-repeat center center">                    
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                        <div class="hex-inner1">
+                          <div class="hex-inner2" style="background: url(img/h1.jpg)no-repeat center center">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2  heximg3" style="background: url(img/h3.jpg)no-repeat center center">                      
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2 heximg4" style="background: url(img/h4.jpg)no-repeat center center">                     
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2 heximg5" style="background: url(img/h5.jpg)no-repeat center center">                      
+                      </div>
+                     </div>
+                    </div>
+                  </div>
+                  <div class="wrapper2">
+                    <div class="hex">
+                        <div class="hex-inner1">
+                          <div class="hex-inner2" style="background: url(img/h1.jpg)no-repeat center center">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2  heximg6" style="background: url(img/h6.jpg)no-repeat center center">                     
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                      <div class="hex-inner1">
+                        <div class="hex-inner2  heximg7" style="background: url(img/h7.jpg)no-repeat center center">                     
+                        </div>
+                      </div>
+                    </div>
+                    <div class="hex">
+                        <div class="hex-inner1">
+                          <div class="hex-inner2" style="background: url(img/h1.jpg)no-repeat center center">
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+        <section class="section photo">
+            <h1 class="active">Be the Best</h1>
+            <figure class="snip1445">
+                <img src="img/s6.png" alt="sample" />
+                <figcaption>
+                  <div>
+                    <h2>No Doubt</h2>
+                    <h4>click Here</h4>
+                  </div>
+                </figcaption>
+                <a href="javascript:void(0);"></a>
+              </figure>
+        </section>
+        <section class="section left_slide">
+            <div class="left_slide_1">
+                <div class="swiper ls">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide lss1"></div>
+                      <div class="swiper-slide lss2"></div>
+                      <div class="swiper-slide lss3"></div>
+                      <div class="swiper-slide lss4"></div>
+                      <div class="swiper-slide lss5"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            <div class="right_letters">
+                <figure class="snip1200">
+                    <video muted data-autoplay loop>
+                        <source src="img/anim-plenitude2003-v3.mp4" type="video/mp4">
+                        <strong>Your browser does not support the video tag.</strong>
+                  </video>
+                    <figcaption>
+                      <p>모든 병은 금속으로 코팅되어 있고, 프랑스 백랍 라벨을 손으로 부착하여 마감한 후 광을 냅니다. 양조장에서 한 사람이 시간 당 20병 정도를 수작업으로 제작하기에 어떠한 병도 같은 모양을 가지고 있지 않아 더욱 특별한 샴페인입니다.</p>
+                      <div class="heading">
+                        <h2>Luxury<span> Design</span></h2>
+                      </div>
+                    </figcaption>
+                    <a href="javascript:void(0);"></a>
+                  </figure>
+            </div>
+        </section>
+        <section class="section order">
+            <h1>Get Our Best</h1>
+            <figure class="snip1141"><img src="img/h8-1.jpg" alt="sq-sample" />
+                <figcaption>
+                  <div class="circle"><i class="fa-solid fa-plus"></i></div>
+                  <h2>Armen De</h2>
+                </figcaption>
+                <a href="javascript:void(0);"></a>
+              </figure>
+            <figure class="snip1141"><img src="img/h8-2.jpg" alt="sq-sample" />
+                <figcaption>
+                  <div class="circle"><i class="fa-solid fa-plus"></i></div>
+                  <h2>Dom Pérignon</h2>
+                </figcaption>
+                <a href="javascript:void(0);"></a>
+              </figure>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="top">TOP</div>
+            <div class="footer_top">
+                <div class="tel">
+                    <div class="tel1">
+                        <span>돔페리뇽 아르망디 고객센터</span>
+                        <p>02.6229.6008</p>
+                    </div>
+                    <div class="tel2">
+                        <p>이용시간 평일 09:00 ~ 18:00<br>
+                        점심시간 12:00 ~ 13:00</p>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="img/finstagram_social media_social network_instagram logo_icon.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="img/f_facebook_icon.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="img/f_naver_icon.png" alt="블로그"></a></li>
+                        <li><a href="#"><img src="img/f_youtube_icon.png" alt="유튜브"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="addr">
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+                    <address>
+                        주식회사 돔페리뇽&아르망디<br>
+                        대표 / 이광수&nbsp;&nbsp;주소 / 서울특별시 강북구 도봉로 352 효성네오인텔리안 308호&nbsp;&nbsp;사업자등록번호 / 107-87-52019<br>
+                        통신판매업 신고번호 / 제2019-서울강북-0693   개인정보관리책임자 : 이지원 (DP&AD@NAVER.COM)
+                        <p>COPYRIGHT ⓒ 2018 (주)돔페리뇽&아르망디. ALL RIGHTS RESERVED.</p>
+                    </address>
+                </div>
+                <div class="footer_logo">
+                    <a href="#"><img src="img/logo2.png" alt="로고"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
